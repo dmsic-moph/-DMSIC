@@ -8,10 +8,10 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="ค้นหายา NLEM 2569 × TMT">
 <meta property="og:description" content="บัญชียาหลักแห่งชาติ พ.ศ. 2569 พร้อมรหัส TPU / GPU และราคากลางยา">
-<meta property="og:image" content="https://satar-th.github.io/-DMSIC/og.png">
-<meta property="og:url" content="https://satar-th.github.io/-DMSIC/nlem-search.html">
+<meta property="og:image" content="https://dmsic-moph.github.io/-DMSIC/og.png">
+<meta property="og:url" content="https://dmsic-moph.github.io/-DMSIC/nlem-search.html">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="data-version" content="TMT 16 พ.ย. 3112">
+<meta name="data-version" content="TMT 16 พ.ย. 2569">
 <title>ค้นหายา NLEM 2569 · TMT</title>
 <style>
 :root{
@@ -113,7 +113,7 @@ footer{max-width:1080px;margin:0 auto 30px;padding:0 20px;color:var(--muted);fon
 #notice input{width:18px;height:18px}
 #notice button{width:100%;padding:11px;border:0;border-radius:10px;background:#1d5fa8;color:#fff;font-size:16px;font-weight:600;cursor:pointer}
 #notice button:disabled{background:#b8c4d3;cursor:not-allowed}
-body.locked{overflow:hidden}
+#notice a{color:#1f62b8;font-weight:700;text-decoration:underline}body.locked{overflow:hidden}
 </style>
 <style id="dmsn-css">
 .dmsn{background:#0b2f57;color:#fff;font:14px/1.4 "Sarabun","Noto Sans Thai","IBM Plex Sans Thai","Leelawadee UI",Tahoma,sans-serif;position:relative;z-index:30}
@@ -135,14 +135,14 @@ body.locked{overflow:hidden}
 <nav class="dmsn" aria-label="เมนูหลัก"><div class="dmsn-in"><a class="dmsn-brand" href="./" title="หน้าหลัก"><i>💊</i><span>รวมเครื่องมือข้อมูลยา</span></a><div class="dmsn-links"><a href="nlem-search.html" class="on" aria-current="page">ค้นหายา NLEM</a><a href="report-5files.html">รายงาน 5 แฟ้ม</a><a href="tpu-gpu-match.html">จับคู่ TPU → GPU</a></div></div></nav>
 <div id="notice" role="dialog" aria-modal="true" aria-labelledby="ntitle"><div class="box">
 <h2 id="ntitle">แจ้งเพื่อทราบก่อนใช้งาน</h2>
-<p>ข้อมูลนี้หน่วยงานจัดทำขึ้นเพื่อใช้บัญชียาหลัก โดยอ้างอิงจากบัญชียาหลักแห่งชาติ พ.ศ. 2569, รหัสยามาตรฐาน TMT (ฉบับ 16 พ.ย. 3112) และประกาศราคากลางยา พ.ศ. 2568</p>
-<p class="warn">โปรดตรวจสอบกับประกาศฉบับจริงก่อนนำไปใช้</p>
+<p>ข้อมูลนี้จัดทำขึ้นโดยใช้ปัญญาประดิษฐ์ (AI) เป็นเครื่องมือช่วยประมวลผล และมีวัตถุประสงค์เพื่อให้ข้อมูลเบื้องต้นเท่านั้น โปรดตรวจสอบความถูกต้องก่อนนำไปใช้อ้างอิง</p>
+<p class="warn">ทั้งนี้ AI อาจประมวลผลข้อมูลคลาดเคลื่อนได้ หากพบข้อผิดพลาดหรือข้อมูลที่ไม่ถูกต้อง กรุณาแจ้งให้ทราบได้ที่ <a href="mailto:dmsic@moph.go.th">dmsic@moph.go.th</a></p>
 <label><input type="checkbox" id="nchk"> ข้าพเจ้ารับทราบ</label>
 <button id="nok" disabled>ตกลง</button>
 </div></div>
 <div class="top"><div class="in">
   <h1>ค้นหายา บัญชียาหลักแห่งชาติ 2569 × รหัสยามาตรฐาน TMT</h1>
-  <p>บัญชียาหลักแห่งชาติ พ.ศ. 2569 ฉบับเต็ม พร้อมรหัส TPU / GPU (TMT 16 พ.ย. 3112) และราคากลางยา 2568 · ใช้งานได้ออฟไลน์</p>
+  <p>บัญชียาหลักแห่งชาติ พ.ศ. 2569 ฉบับเต็ม พร้อมรหัส TPU / GPU (TMT 16 พ.ย. 2569) และราคากลางยา 2568 · ใช้งานได้ออฟไลน์</p>
   <div class="stats" id="stats"></div>
 </div></div>
 <main>
@@ -158,7 +158,7 @@ body.locked{overflow:hidden}
 </main>
 <div class="toast" id="toast"></div>
 <footer>
-  ที่มา: บัญชียาหลักแห่งชาติ พ.ศ. 2569 (ประกาศราชกิจจานุเบกษา 30 มี.ค. 2569, ไฟล์ Excel) · สรุปรายการยาที่มีการปรับปรุง (PDF) · Master TMT, GPU25691116 (16 พ.ย. 3112) · บัญชีแนบท้ายประกาศราคากลางยา ลงวันที่ 25 ส.ค. 2568 ·
+  ที่มา: บัญชียาหลักแห่งชาติ พ.ศ. 2569 (ประกาศราชกิจจานุเบกษา 30 มี.ค. 2569, ไฟล์ Excel) · สรุปรายการยาที่มีการปรับปรุง (PDF) · Master TMT, GPU20261116 (16 พ.ย. 2569) · บัญชีแนบท้ายประกาศราคากลางยา ลงวันที่ 25 ส.ค. 2568 ·
   การจับคู่ยี่ห้อและราคากลางทำโดยเทียบชื่อยา รูปแบบ และความแรง (จำนวนยี่ห้อและผู้ผลิตนับเฉพาะที่จับคู่ได้)
 </footer>
 <script>
